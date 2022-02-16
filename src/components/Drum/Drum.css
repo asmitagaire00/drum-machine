@@ -1,0 +1,48 @@
+.display {
+  display: flex;
+  flex-direction: row;
+  border: 5px solid rgb(216, 170, 86);
+  background-color: rgb(180, 176, 170);
+  padding: 3rem;
+}
+
+.drum-pad {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+button {
+  padding: 2rem;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: medium;
+  box-shadow: 3px 3px rgb(95, 92, 92);
+  border-radius: 6px;
+  background-color: gray;
+  border: none;
+  outline: none;
+  margin-right: 2rem;
+}
+
+.clip--active:active {
+  background-color: rgb(216, 170, 86);
+}
+
+.drum__display {
+  border: 1px solid;
+}
+
+.inner-text__display {
+  margin: auto 0;
+}
+
+input {
+  border: none;
+  font-weight: 600;
+  font-size: medium;
+  background-color: gray;
+  text-align: center;
+  padding: 1rem;
+}
